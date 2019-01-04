@@ -1,0 +1,513 @@
+<!-- when book is clicked or project selected -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/elegant-font/html-css/style.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+.alert{
+ text-align: center;
+ padding: 10px;
+ background-color: #79c879;
+ margin-bottom: 10px;
+ display: none;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body class="animsition">
+
+	<!-- Header -->
+	<header class="header1">
+		<!-- Header desktop -->
+		<div class="container-menu-header">
+			<div class="topbar">
+				<div class="topbar-social">
+
+					<a href="index.html" class="topbar-social-item "><font color="#7B1FA2">skillaby</font></a>
+
+					<a href="#" class="topbar-social-item fa fa-facebook"></a>
+
+					<a href="#" class="topbar-social-item fa fa-instagram"></a>
+					<a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+					<a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+				</div>
+
+				
+
+				<div class="topbar-child2">
+			<!-- 			<a href="teacher.html" class="topbar-social-item "><font color="#000">Teach a Skill</font></p></a>
+
+					<span class="linedivide1"></span>
+		
+
+						<a href="sign" class="topbar-social-item "><font color="#000">Sign In</font></p></a>
+
+					<span class="linedivide1"></span>
+
+
+						<a href="#" class="topbar-social-item "><font color="#000">Log In</font></p></a>
+
+					<span class="linedivide1"></span> -->
+
+
+					<div class="topbar-language rs1-select2">
+						<img src="images/icons/icon-header-01.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+					</div>
+				</div>
+			</div>
+
+			</div>
+		</div>
+
+		<br>
+		<br>
+	
+	
+
+
+
+
+
+
+
+	<!-- categories learn a skill -->
+
+<section class=" ">
+  <style type="text/css">
+    
+    @media only screen and (min-width : 768px) {
+  .is-table-row {
+    display: table;
+  }
+  .is-table-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+
+.is-table-row .box {
+  background: none;
+  position: static;
+}
+.is-table-row [class*="col-"] {
+  background: #fff;
+}
+
+
+
+/* Base Stuff Ignore */
+
+a { transition: all 225ms ease; }
+
+
+.container { padding-top: 25px; padding-bottom: 25px; background: rgba(255, 255, 255, 0.1); }
+.row { padding-top: 25px; padding-bottom: 25px; background: rgba(255, 255, 255, 0.3); }
+[class*="col-"] { border: solid 1px #e3e3e3; border-top-width: 2px; border-bottom-width: 2px; padding-top: 25px; padding-bottom: 25px; background: rgba(255, 255, 255, 0.5); }
+[class*="col-"]:first-child { border-left-width: 2px; }
+[class*="col-"]:last-child { border-right-width: 2px; }
+
+
+.box {
+    padding: 25px 7% 0;
+    text-align: center;
+    position: relative;
+    background: #fff;
+}
+.box h2 {
+    font-weight: 300;
+    letter-spacing: -0.05em;
+    margin-bottom: 15px;
+}
+.box a {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    padding: 25px 0;
+}
+.box p {
+    padding-bottom: 125px;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+
+.key-box { background: #fff; color: #111 !important; }
+  </style>
+    <div class="big-sexy-buttons" >
+        <div class="container">
+            <div class="row is-table-row">
+            <form style="background-color: #fff;" method="POST" enctype="multipart/form-data" action="up.php" id="subform">
+            <div class="col-md-4 form-line">
+                <h2><font color="#7B1FA2">Skills</font></h2>
+                                              <br>
+<!-- 
+                                              <div class="alert" >
+                                              
+                                                                                                  </style>
+                                                <font color="#000">  Your Resume has been uploaded</font>
+                                              
+                                              </div> -->
+              <div class="form-group">
+                <label><font color="#000">Select Category</font></label>
+              <select class="form-control" name="category" id="formart">
+                  <option>Art</option>
+                  <option>Horticulture</option>
+                  <option>Dancing</option>
+                  <option>Health and Fitness</option>
+                  <option>DIY</option>
+                  <option>IT</option>
+                  <option>Baking</option>               
+                  <option>Jewellery</option>
+                  <option>Farming</option>              
+                  <option>Languages</option>
+                  <option>Coffee Brewing</option>       
+                  <option>Music</option>
+                  <option>Cooking</option>              
+                  <option>Painting</option>
+                  <option>Crafts</option>               
+                  <option>Pets</option>
+                  <option>Hair and Beauty</option>      
+                  <option>Photography</option>
+                  <option>Fashion and Design</option>  
+                  <option>Sports</option>
+                  <option>Decor and Event Planning</option>                  
+                  <option>Writing</option>
+                  <option>Business Mentorship</option>                  
+                  <option>Enterprenuership</option>
+              </select>
+              </div>
+
+              <div class="form-group">
+                <label><font color="#000">Skill Type</font></label>
+                <input type="text" name="skillType" class="form-control"  placeholder="if category Art type maybe music" id="skills">
+              </div>  
+              
+              
+              <div class="form-group">
+                <label><font color="#000">Brief Description</font></label>
+                <textarea class="form-control" name='description' id="desc"></textarea>
+              </div>
+            </div>
+          
+              <div class="col-md-4 form-line">
+              <h2><font color="#7B1FA2">Schedule</font></h2>
+              <br>
+
+              <div class="form-group">
+                <label><font color="#000">When are you available ?</font></label>
+                  <select class="form-control" name="available" id="when">
+                  <option>Weekends</option>
+                  <option>Weekdays</option>
+                  <option>Both</option>
+
+              </select>           
+              </div>
+              <div class="form-group">
+                <label><font color="#000">Lesson Hours</font></label>
+                <input type="text" class="form-control"  name="lessonTime" placeholder=" e.g from 8:30 - 10:30 " id="lesshrs">
+              </div>  
+              <div class="form-group">
+                <label><font color="#000">Place of Study</font></label>
+                <select class="form-control" name="studyPlace" id="place">
+                  <option>My Work Station</option>
+                  <option>Clients desired Location</option>
+                  <option>Flexible</option>
+              </select>
+              </div>
+               <div class="form-group">
+                <label><font color="#000">Contact Number</font></label>
+                <input type="alphanumeric" class="form-control"  name="lessonTime" placeholder=" 07....." id="phones">
+              </div>
+            </div>
+            
+            
+              <div class="col-md-4 form-line">
+                <h2><font color="#7B1FA2">Pricing</font></h2> <br>
+
+              <div class="form-group">
+                <label><font color="#000">Charge</font></label>
+                <input type="text" class="form-control" id="charge" name="charge" placeholder=" KSH. " >
+              </div>
+              <div class="form-group">
+                <label><font color="#000">Duration of Charge</font></label>
+                  <select class="form-control" name="chargeDuration" id="durcharge">
+                  <option>Per Hour</option>
+                  <option>Per Lesson</option>
+                  <option>Per Course</option>
+
+              </select>
+              </div>  
+              <div class="form-group">
+                <label><font color="#000">Transport Charge</font></label>
+                <input type="text" class="form-control"  name="transportCharge" placeholder=" if place of study = Client location." id="trans">
+              </div>
+
+ <div class="form-group">
+ 
+                <label><font color="#000">Upload Image</font></label>
+           <input  type="file"  id="images" multiple>
+<div id="preview"></div>
+
+<script type="text/javascript">
+  
+
+  function previewImages() {
+
+  var preview = document.querySelector('#preview');
+  
+  if (this.files) {
+    [].forEach.call(this.files, readAndPreview);
+  }
+
+  function readAndPreview(file) {
+
+    // Make sure `file.name` matches our extensions criteria
+    if (!/\.(jpe?g|png|gif)$/i.test(file.name)) {
+      return alert(file.name + " is not an image");
+    } // else...
+    
+    var reader = new FileReader();
+    
+    reader.addEventListener("load", function() {
+      var image = new Image();
+      image.height = 100;
+      image.title  = file.name;
+      image.src    = this.result;
+      preview.appendChild(image);
+    }, false);
+    
+    reader.readAsDataURL(file);
+    
+  }
+
+}
+
+document.querySelector('#file-input').addEventListener("change", previewImages, false);
+</script>
+
+
+              </div>
+
+              <p><font color="black" style="font-family: sans-serif;">OR</font></p>
+
+ <div class="form-group">
+ 
+                <label><font color="#000">Upload Video</font></label>
+                <input type="file" name="image" id="videos" accept="video/*" onchange="loadFiles(event)" multiple >
+<img id="output"/>
+<script>
+  var loadFile = function(event) {
+    var output = document.getElementById('output');
+    output.src = URL.createObjectURL(event.target.files[0]);
+  };
+</script>
+              </div>
+              
+                <div class="form-group">
+                  <script type="text/javascript">
+function Confirm(form){
+alert("Record insert successfully!"); 
+form.submit();
+}
+</script>
+              <button class="btn btn-primary" style="float: right;" type="submit" name='submit' onClick="Confirm(this.form)">Submit</button>
+
+              </div>
+              
+            </div>
+          
+        </form>
+            </div>
+        </div>
+    </div>
+      
+
+
+
+    
+</section>
+	
+
+
+
+	<!-- Footer -->
+		<!-- The content of your page would go here. -->
+
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+					<img src="images/icons/patlog.png" alt="IMG-LOGO">
+
+				<p class="footer-links">
+					<a href="index.html" style="font-family: sans-serif;">Home</a>
+					·
+					<a href="teacher.html" style="font-family: sans-serif;">Teach a Skill</a>
+					·
+					<a href="learner.html" style="font-family: sans-serif;">Learn a Skill</a>
+					·
+					<a href="#" style="font-family: sans-serif;">Offer Mentorship</a>
+					·
+					<a href="#" style="font-family: sans-serif;">Blog</a>
+					·
+					<a href="#" style="font-family: sans-serif;">Contact</a>
+				</p>
+
+				<p class="footer-company-name" style="font-family: sans-serif;">skillaby &copy; 2018</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span style="font-family: sans-serif;">Westlands</span> Nairobi,Kenya</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone" style="font-family: sans-serif;"></i>
+					<p>+254</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:skillaby@skillaby.com" style="font-family: sans-serif; color: #7B1FA2;">skillaby@skillaby.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span style="font-family: sans-serif;">About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+ 
+	
+
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+	<script type="text/javascript">
+		$(".selection-1").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/slick-custom.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/sweetalert/sweetalert.min.js"></script>
+	<script type="text/javascript">
+		$('.block2-btn-addcart').each(function(){
+			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to cart !", "success");
+			});
+		});
+
+		$('.block2-btn-addwishlist').each(function(){
+			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to wishlist !", "success");
+			});
+		});
+	</script>
+  <!--===============================================================================================-->
+<script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+ <!--===============================================================================================-->
+  <script type="text/javascript" src="js/up.js"></script>
+
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+  <script type="text/javascript" src="js/main.js"></script>
+
+<!--===============================================================================================-->
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>
